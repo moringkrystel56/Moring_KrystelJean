@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Krystel_App",
+    "slug": "miss_krystel",
+    "scheme": "misskrystel",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#EEF1FF",
+    "newArchEnabled": true,
+    "experiments": { "typedRoutes": true },
+    "android": {
+      "package": "com.example.sociallydemo",
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": { "backgroundColor": "#EEF1FF" }
+    },
+    "plugins": [
+      "expo-router",
+      ["expo-image-picker", { "photosPermission": "Allow the app to choose photos for your profile and posts." }]
+    ]
+  }
+}
